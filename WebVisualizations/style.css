@@ -1,0 +1,90 @@
+.navbar {
+    background: white;
+    height: 60px;
+    padding: 0rem 1rem;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    background: #2BBBAD;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 18pt;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    padding: 0px 20px;
+}
+
+.nav-item:hover, .navbar-brand:hover, body {
+    background: lightgrey;
+}
+
+.box {
+    background: white;
+    margin: 30px 5px;
+    padding: 30px;
+}
+
+.heading {
+    color: #2BBBAD;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.plot_landing {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px 5px 0px;
+}
+
+.plot_visualization {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+.plot_main {
+    float: left;
+
+}
+
+#bottom_footer {
+    height: 3px;
+    background: #2BBBAD;
+    margin: 0px;
+}
+
+/* Texts (except headers) and menu items */
+body a, body p{
+    color: #4b515d;
+    font-size: 12pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: #2BBBAD;
+        padding: 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    
+    .navbar div{
+        background: white;
+        /* margin: 0px; */
+        padding: 10px;
+    }
+
+    .dropdown-menu {
+        border: 0px;
+    }
+}
